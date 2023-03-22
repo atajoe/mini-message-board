@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.message-form{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.nav-master{
+  background-color: rgb(128, 180, 180);
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-master ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-master ul li a {
+  color:antiquewhite;
+}
+
+.nav-master ul li a:hover {
+  color: rgb(124, 117, 117);
+}

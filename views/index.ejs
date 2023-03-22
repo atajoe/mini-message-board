@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%- include("./partials/head.ejs") %>
+  </head>
+  <body>
+    <%- include("./partials/nav.ejs") %>
+    <p>Welcome to <%= title %></p>
+    <p>This is the locals from app environment: <%= omak %></p>
+    <% messages.forEach(message => { %>
+          <p><%= message.title %></p>
+          <p><%= message.user %></p>
+          <p><%= message.added %></p>
+    <% }) %>
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
